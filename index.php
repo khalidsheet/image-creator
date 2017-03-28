@@ -62,7 +62,7 @@
 					*/
 
 					// delete the '//' to enable the text
-					//imagettftext($image, $fontSize, 0, $fontWidth, $fontHeight, $textColor, 'fonts/arial.ttf', rand(0, 1000));
+					//imagettftext($image, $fontSize, 0, $fontWidth, $fontHeight, $textColor, 'arial.ttf', rand(0, 1000));
 
 					// set contet type to png image with header() function
 					header('Content-type: image/png');
